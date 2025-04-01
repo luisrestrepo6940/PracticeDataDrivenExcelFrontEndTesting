@@ -1,6 +1,10 @@
 <h1 align="center">Practice Data Driven Excel Front End Testing</h1>
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-IN%20EVOLUTION-green)
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-IN%20EVOLUTION-blue)
+![Static Badge](https://img.shields.io/badge/Java-red?style=flat-square)
+![GitHub followers](https://img.shields.io/github/followers/luisrestrepo6940?style=flat&logo=github)
+![Static Badge](https://img.shields.io/badge/Serenity-8A2BE2?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Apache-POI-blue?style=flat-square)
 
 ### CONTENT
 
