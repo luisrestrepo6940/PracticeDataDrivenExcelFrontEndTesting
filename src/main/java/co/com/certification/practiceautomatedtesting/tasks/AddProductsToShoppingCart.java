@@ -17,18 +17,34 @@ public class AddProductsToShoppingCart implements Task {
 
     public <T extends Actor> void performAs(T actor) {
         for (int i = 1; i <= products; i++) {
-            String productId = String.valueOf(i);
+            String productId = getProductPosition(i);
             actor.attemptsTo(
                     AddProduct.buyProduct(productId)
             );
-            if (i == 1) {
-                Serenity.setSessionVariable(EnumVariablesSesion.SESSION_PRODUCT_ONE.getValue()).to(CheckNameProduct.
-                        productName(productId).answeredBy(actor));
-            } else {
-                Serenity.setSessionVariable(EnumVariablesSesion.SESSION_PRODUCT_TWO.getValue()).to(CheckNameProduct.
-                        productName(productId).answeredBy(actor));
-            }
+            Serenity.setSessionVariable(EnumVariablesSesion.SESSION_PRODUCT.getValue().concat(String.valueOf(i))).
+                    to(CheckNameProduct.productName(productId).answeredBy(actor));
         }
+    }
+
+    public static String getProductPosition(int iteration) {
+        String productId;
+        switch (iteration) {
+            case 1:
+            case 4:
+                productId = "1";
+                break;
+            case 2:
+            case 5:
+                productId = "2";
+                break;
+            case 3:
+            case 6:
+                productId = "3";
+                break;
+            default:
+                throw new IllegalArgumentException("NUMBER INVALID PRODUCTS");
+        }
+        return productId;
     }
 
     public static AddProductsToShoppingCart addProductCart(int products) {

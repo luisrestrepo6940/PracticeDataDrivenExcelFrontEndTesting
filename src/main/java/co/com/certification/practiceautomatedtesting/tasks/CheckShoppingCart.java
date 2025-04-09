@@ -23,12 +23,17 @@ public class CheckShoppingCart implements Task {
     @Step("check shopping cart")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Ensure.that(CheckQuantityProducts.quantityProducts().answeredBy(actor)).isEqualTo(quantity),
-                Ensure.that(CheckNameProduct.productName("1").answeredBy(actor))
-                        .isEqualTo(Serenity.sessionVariableCalled(EnumVariablesSesion.SESSION_PRODUCT_ONE.getValue())),
-                Ensure.that(CheckNameProduct.productName("2").answeredBy(actor))
-                        .isEqualTo(Serenity.sessionVariableCalled(EnumVariablesSesion.SESSION_PRODUCT_TWO.getValue()))
+                Ensure.that(CheckQuantityProducts.quantityProducts().answeredBy(actor)).isEqualTo(quantity)
         );
+
+        for (int i = 1; i <= Integer.parseInt(quantity); i++) {
+            String productNumber = AddProductsToShoppingCart.getProductPosition(i);
+            actor.attemptsTo(
+                    Ensure.that(CheckNameProduct.productName(productNumber).answeredBy(actor)).
+                            isEqualTo(Serenity.sessionVariableCalled(EnumVariablesSesion.SESSION_PRODUCT.getValue().
+                                    concat(productNumber)))
+            );
+        }
 
         actor.attemptsTo(
                 PressButton.button(ProductsPage.SHOPPING_CART)

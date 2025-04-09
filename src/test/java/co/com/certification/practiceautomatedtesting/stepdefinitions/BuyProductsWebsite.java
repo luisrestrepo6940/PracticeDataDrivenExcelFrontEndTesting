@@ -9,8 +9,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.serenitybdd.model.environment.EnvironmentSpecificConfiguration;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import net.thucydides.model.util.EnvironmentVariables;
 import org.hamcrest.Matchers;
 
 import java.util.List;
@@ -21,6 +23,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class BuyProductsWebsite {
+    protected EnvironmentVariables environmentVariables;
     private List<Map<String, String>> mapList;
 
     @Before
@@ -31,8 +34,8 @@ public class BuyProductsWebsite {
 
     @Given("the user access to the web site")
     public void theUserAccessToTheWebSite() {
-        theActorInTheSpotlight().attemptsTo(OpenTheApplication.startApplication(ManageParametersConnection.
-                getUrlBase()));
+        theActorInTheSpotlight().attemptsTo(OpenTheApplication.startApplication(EnvironmentSpecificConfiguration.from(
+                environmentVariables).getProperty("base.url")));
     }
 
     @And("user login")

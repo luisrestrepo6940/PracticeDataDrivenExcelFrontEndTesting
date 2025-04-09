@@ -6,8 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum EnumVariablesSesion {
-    SESSION_PRODUCT_ONE("productOne"),
-    SESSION_PRODUCT_TWO("productTwo");
+    SESSION_PRODUCT("product");
     private final String value;
 
 }

@@ -41,7 +41,7 @@ public class GetDataForFeature {
                     excelFilePath = dataVector[2].trim();
                     sheetName = dataVector[3].trim();
                     excelData = getDataSheetExcelFile(excelFilePath, sheetName);
-                    String dataTable = createDataTable(excelData);
+                    String dataTable = createDataTable(excelData, Boolean.parseBoolean(dataVector[4].trim()));
                     fileData.add(dataTable);
                     replace = false;
                     continue;
@@ -72,17 +72,25 @@ public class GetDataForFeature {
         return mapList;
     }
 
-    public static String createDataTable(List<Map<String, String>> excelData) {
+    public static String createDataTable(List<Map<String, String>> excelData, boolean randomize) {
         StringBuilder stringBuilder = new StringBuilder();
-        List<Map<String, String>> mapList = getExcelData(excelData);
-        for (Map<String, String> dataMap : mapList) {
+        if (randomize) {
+            Map<String, String> dataMap = excelData.get(Utils.getRandomNumberAnInterval(excelData.size() - 1));
             for (Map.Entry<String, String> entry : dataMap.entrySet()) {
                 stringBuilder.append("      | ").append(entry.getValue());
             }
-            stringBuilder.append("|");
-            stringBuilder.append("\n");
+            return stringBuilder.toString().concat("|");
+        }else {
+            List<Map<String, String>> mapList = getExcelData(excelData);
+            for (Map<String, String> dataMap : mapList) {
+                for (Map.Entry<String, String> entry : dataMap.entrySet()) {
+                    stringBuilder.append("      | ").append(entry.getValue());
+                }
+                stringBuilder.append("|");
+                stringBuilder.append("\n");
+            }
+            return stringBuilder.toString();
         }
-        return stringBuilder.toString();
     }
 
     public static List<Map<String, String>> getDataSheetExcelFile(String excelFilePath, String sheetName) {
