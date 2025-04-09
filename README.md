@@ -193,10 +193,14 @@ Serenity uses WebDriverManager to download the WebDriver binaries automatically 
 #### Executing the tests
 To run the sample project, you can either just run the `TestRunnerBuyProducts` test runner class, or run either `gradle test` from the command line.
 
-##### TestRunnerBuyProducts
+##### Using test runner
+
 ```gradle
 :test --tests "co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts" -Denvironment=firefox
 ```
+
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/e28ed94c-3570-4d3e-968b-1c88b7dd0986" />
+
 ##### Generating a report with a specific browser
 ```gradle
 gradle clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts -Denvironment=firefox aggregate --info
