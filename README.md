@@ -199,7 +199,7 @@ To run the sample project, you can either just run the `TestRunnerBuyProducts` t
 :test --tests "co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts" -Denvironment=firefox
 ```
 
-<img width="599" alt="image" src="https://github.com/user-attachments/assets/e28ed94c-3570-4d3e-968b-1c88b7dd0986" />
+<img width="499" alt="image" src="https://github.com/user-attachments/assets/e28ed94c-3570-4d3e-968b-1c88b7dd0986" />
 
 ##### Generating a report with a specific browser
 ```gradle
