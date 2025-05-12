@@ -1,7 +1,6 @@
 package co.com.certification.practiceautomatedtesting.utils.constants;
 
 public class Constants {
-    public static final String BUY_PRODUCTS_URL = "BUY_PRODUCTS_URL";
     public static final String PRODUCT_OWNER = "Jhon Smith";
     public static final String RUNNER_CLASS = "Runner Class";
     public static final String REPLACE_PATTERN = "@externaldata";

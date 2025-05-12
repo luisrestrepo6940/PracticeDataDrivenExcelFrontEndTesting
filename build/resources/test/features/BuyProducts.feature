@@ -23,7 +23,7 @@ Feature: buy products on the website
     Examples:
       | user          | password     | amount | firstName | lastName | postalCode | confirmationMessage       |
       #@externaldata@./src/test/resources/datadriven/Data.xlsx@checkProductPurchase@true
-      |  standard_user       |  secret_sauce       | 2      |  Josue        |  Presley        | 5105      |  Thank you for your order! |
+      | standard_user | secret_sauce | 2      | Josue     | Presley  | 5105       | Thank you for your order! |
 
 
 

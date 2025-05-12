@@ -6,80 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="353e7aff-daaf-4745-8e53-c9ea221ed06f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/tasks/AddProductsToShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/tasks/AddProductsToShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/tasks/CheckShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/tasks/CheckShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/EnumVariablesSesion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/EnumVariablesSesion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/GetDataForFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/GetDataForFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/certification/practiceautomatedtesting/utils/various/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/certification/practiceautomatedtesting/stepdefinitions/BuyProductsWebsite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/certification/practiceautomatedtesting/stepdefinitions/BuyProductsWebsite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/buy#20products#20on#20the#20website.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/buy#20products#20on#20the#20website.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/datadriven/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/datadriven/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/BuyProducts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/BuyProducts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-buy#20products#20on#20the#20website.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-buy#20products#20on#20the#20website.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OpenTheApplication.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/BuyProductsWebsite.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_10208721949982492489_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_11175802180240689617_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_12040862308669254851_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_12659893598782063928_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_12665804066041869876_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_12896421728454733903_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_13509950465623927425_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_14176943236815981129_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_16101718302775395198_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_16781177411862602186_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_17251855655343445497_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_18153366785236305605_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_18199746290350557827_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2472851326119051785_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_253496895015311259_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2958541655968110141_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3349006197889963989_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3620285912016620783_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4075374445521444151_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4265251229234834372_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5081558955153542103_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5225427476153007486_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5503776190409255558_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6174305463961018149_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6347569945243943109_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6695747775514480062_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7730127470898884253_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8453324358184316978_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8713473191515779693_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8774236621234757136_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9788128906381324932_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9853442337928327407_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/tasks/AddProductsToShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/tasks/AddProductsToShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/tasks/CheckShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/tasks/CheckShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/EnumVariablesSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/EnumVariablesSesion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/GetDataForFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/GetDataForFeature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/certification/practiceautomatedtesting/utils/various/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/certification/practiceautomatedtesting/stepdefinitions/BuyProductsWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/certification/practiceautomatedtesting/stepdefinitions/BuyProductsWebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/datadriven/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datadriven/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BuyProducts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BuyProducts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +31,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="PracticeDataDrivenExcelFrontEndTesting" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PracticeDataDrivenExcelFrontEndTesting" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -132,28 +65,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build PracticaPruebasAutomatizadasDataDrivenExcel.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.PracticaPruebasAutomatizadasDataDrivenExcel [clean build].executor": "Run",
-    "Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test default].executor": "Run",
-    "Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test].executor": "Run",
-    "Gradle.PracticeDataDrivenExcelFrontEndTesting [clean verify].executor": "Run",
-    "Gradle.TestRunnerBuyProducts.executor": "Run",
-    "Maven. [clean,verify,-Denvironment=chrome].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/AW1277001_BotonDeTransferencia_PSE_MR_Test/ms_listener_approved_test",
-    "onboarding.tips.debug.path": "C:/PracticaPruebasAutomatizadasDataDrivenExcel/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build PracticaPruebasAutomatizadasDataDrivenExcel.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticaPruebasAutomatizadasDataDrivenExcel [clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test default].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeDataDrivenExcelFrontEndTesting [clean verify].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestRunnerBuyProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean,verify,-Denvironment=chrome].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PracticeDataDrivenExcelFrontEndTesting&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/PracticaPruebasAutomatizadasDataDrivenExcel/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\PracticaPruebasAutomatizadasDataDrivenExcel\src\main\java\co\com\certification\practiceautomatedtesting\questions" />
@@ -189,22 +123,29 @@
       <command value="gradle clean test -Denvironment=chrome" />
       <command value="gradle clean test -Ddrivers=firefox" />
       <command value="gradle clean test -Denvironment=firefox" />
+      <command value="clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate --info" />
+      <command value="gradle clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate --info" />
+      <command value="gradle clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts -Denvironment=firefox aggregate --info" />
+      <command value="gradle clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts -Denvironment=chrome aggregate --info" />
     </option>
   </component>
   <component name="RunManager" selected="Gradle.TestRunnerBuyProducts">
-    <configuration name="PracticaPruebasAutomatizadasDataDrivenExcel [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PracticeDataDrivenExcelFrontEndTesting [clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--info" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value="clean" />
-            <option value="build" />
+            <option value="test" />
+            <option value="--tests" />
+            <option value="co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts" />
+            <option value="aggregate" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -290,7 +231,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="-Denvironment=firefox" />
+        <option name="scriptParameters" value="-Denvironment=chrome" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -310,7 +251,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.PracticaPruebasAutomatizadasDataDrivenExcel [clean build]" />
+      <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate]" />
       <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test default]" />
       <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test]" />
       <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean verify]" />
@@ -319,10 +260,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestRunnerBuyProducts" />
+        <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test --tests co.com.certification.practiceautomatedtesting.runners.practiceautomatedtesting.TestRunnerBuyProducts aggregate]" />
         <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test default]" />
         <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean test]" />
         <item itemvalue="Gradle.PracticeDataDrivenExcelFrontEndTesting [clean verify]" />
-        <item itemvalue="Gradle.PracticaPruebasAutomatizadasDataDrivenExcel [clean build]" />
       </list>
     </recent_temporary>
   </component>

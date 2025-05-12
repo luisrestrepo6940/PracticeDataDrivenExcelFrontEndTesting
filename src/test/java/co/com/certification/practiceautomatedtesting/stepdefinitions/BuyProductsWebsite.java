@@ -2,7 +2,6 @@ package co.com.certification.practiceautomatedtesting.stepdefinitions;
 
 import co.com.certification.practiceautomatedtesting.questions.CheckConfirmationMessage;
 import co.com.certification.practiceautomatedtesting.tasks.*;
-import co.com.certification.practiceautomatedtesting.utils.various.ManageParametersConnection;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
